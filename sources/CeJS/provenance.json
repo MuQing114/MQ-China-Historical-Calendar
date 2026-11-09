@@ -1,0 +1,121 @@
+{
+  "repository": "https://github.com/kanasimi/CeJS",
+  "commit": "0e10a9dffc1315c29f4e0868366bc0580a072c44",
+  "license": "BSD-3-Clause",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1679,
+      "sha256": "ff90f77ced59828fd9092c0e71b79a7c2b522737d01d38d991d98258e39296c2"
+    },
+    {
+      "path": "package.json",
+      "bytes": 931,
+      "sha256": "79504aa7f51ac49405f0c8582b3597dfe5c7b2d0ad998cc8628fe8663cb6e40c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13815,
+      "sha256": "21866e5be9ea5000528a44ea311ab3c1580d4d096355be159b3563d50f630ac7"
+    },
+    {
+      "path": "ce.js",
+      "bytes": 560072,
+      "sha256": "f62257e80150effff58b86fc44c45991f1a26c732f1fb6769dd5ac8e1572f6dd"
+    },
+    {
+      "path": "_structure/base.js",
+      "bytes": 100328,
+      "sha256": "f58b8464fa1816acc99096fdaa67f591e6069c73be46acdda9b6150ead3bb132"
+    },
+    {
+      "path": "_structure/module.js",
+      "bytes": 53920,
+      "sha256": "e9b5dfbce300b2cf14649db0a3df6829c6767f0c037238fccd12c0d76eb48e53"
+    },
+    {
+      "path": "_structure/dependency_chain.js",
+      "bytes": 145527,
+      "sha256": "b5ad376c2a8b3da09539e9103b895ff0763ce4ce5a9711228a8c10d8763521e7"
+    },
+    {
+      "path": "_structure/initialization.js",
+      "bytes": 6224,
+      "sha256": "2609701f03efc17ac4b4c1416748e715d6b6292decfebbea29355255f88078c5"
+    },
+    {
+      "path": "_structure/compatibility.js",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "_for include/node.loader.js",
+      "bytes": 3267,
+      "sha256": "e5d22aade05e6a5c6d1fc1071ceb0b5262f39cdb051d91cb2551e97dd459ddd6"
+    },
+    {
+      "path": "data/date.js",
+      "bytes": 138092,
+      "sha256": "9fa6e03c7a3903eb788fd41ee16ef5dcc153c3a2f7efdd31a450389d25d11003"
+    },
+    {
+      "path": "data/native.js",
+      "bytes": 160723,
+      "sha256": "ff7d9ce21d00a7d4e7f50c473b7e54d6ee5f54aea35752f6a79d72f9a643e979"
+    },
+    {
+      "path": "data/code.js",
+      "bytes": 24808,
+      "sha256": "e118e9e9af5263fbb0cd6cc00318fee4bf1ef17476ad41bb24689e8d3aa06a0d"
+    },
+    {
+      "path": "data/code/compatibility.js",
+      "bytes": 104107,
+      "sha256": "33908d2709d0d91953d78d0266a24ff5c272e7eb120ca10802558814183d8a64"
+    },
+    {
+      "path": "data/numeral.js",
+      "bytes": 38195,
+      "sha256": "cb9d1786302b30e1dab490dd7080839ab4e7eed007fb8e727bd9412efab6dd88"
+    },
+    {
+      "path": "data/math.js",
+      "bytes": 123407,
+      "sha256": "f8a26d31696f3d8c81ea95988a24b31b47cfaf70a6485d87343dbcb520f18393"
+    },
+    {
+      "path": "data/math/integer.js",
+      "bytes": 117139,
+      "sha256": "1f086995c7de1c873f478ed35cf14ff5500b072ac26fb2cbc80c5f38fea19020"
+    },
+    {
+      "path": "data/date/calendar.js",
+      "bytes": 260849,
+      "sha256": "9d60027ea898ec1903cd098dee353799e2ecfb9cabb3fceb56d6309663dff74d"
+    },
+    {
+      "path": "data/date/era.js",
+      "bytes": 284916,
+      "sha256": "fad998d45d705df9089edb4686eae0c36ef1710869236fdd2edf5d0b4f228bcb"
+    },
+    {
+      "path": "data/date/era_data.js",
+      "bytes": 526551,
+      "sha256": "9841f0d3fcc1f551346de2c8792f4abf0e0aefefad3864e0ac87431a02cfa2bc"
+    },
+    {
+      "path": "application/locale.js",
+      "bytes": 84530,
+      "sha256": "4b0c73abba5c30a7e176d40bd7206f5068b67ca75439c500f93b1edec86798d1"
+    },
+    {
+      "path": "application/debug.js",
+      "bytes": 13554,
+      "sha256": "40e65aaf140bd367cdf245758af31a01319fd3a99c4f20c6ba8bf3a5bce2c2bc"
+    },
+    {
+      "path": "interact/console.js",
+      "bytes": 30784,
+      "sha256": "7e2badc2b5c81dde8f09dba744a2824d5ba919bda71a5c6622f22689ef392e60"
+    }
+  ]
+}

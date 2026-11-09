@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MQ中国历史历日检索 · 夏至今 · 离线版</title>
+<meta name="description" content="历史年代、干支、公历与农历/史历互查；生日四柱八字、整柱纳音与月令格局参考。完全离线，无需登录。">
+<link rel="stylesheet" href="styles.css">
+<script src="calendar-data.js" defer></script><script src="era-data.js" defer></script><script src="year-supplement.js" defer></script><script src="history-core.js" defer></script><script src="app.js" defer></script><script src="birth-core.js" defer></script><script src="birth-ui.js" defer></script>
+</head><body>
+<header class="topbar"><a class="brand" href="#"><span class="seal" aria-hidden="true">时</span><span>MQ中国历史历日检索<span class="brand-sub">夏至今 · 完全离线</span></span></a><nav aria-label="页面导航"><a href="#birth-chart" class="birth-nav">生日排盘</a><a href="#catalogue">纪年总索引</a><a href="#rules">口径与来源</a></nav></header>
+<main>
+<section class="intro"><div><p class="eyebrow">约前2070年 — 2026年 · 三向查询</p><h1>一日三历，<br class="mobile-br">千年并观。</h1><p class="lede">公历、农历与干支互查。看同一年、同一天，各个政权如何纪年。</p><a class="birth-shortcut" href="#birth-chart">新增：生日八字 · 整柱纳音 · 命格参考 →</a></div><span class="intro-mark" aria-hidden="true">观往知来</span></section>
+<div class="coverage-banner"><span class="coverage-tag">数据分界</span><p>夏商及早期西周：年代定位，历日未定。前722年起：历史历表与古历复原。年号、君主纪年保留日/月/年级精度，不将存疑资料补成确定日期。</p></div>
+<div class="epoch-strip" aria-label="快速选择历史范围"><button data-epoch="all" type="button">全部</button><button data-epoch="early" type="button">夏商西周</button><button data-epoch="zhou" type="button">春秋战国</button><button data-epoch="han" type="button">秦汉</button><button data-epoch="divided" type="button">三国至南北朝</button><button data-epoch="tang" type="button">隋唐五代</button><button data-epoch="song" type="button">宋辽金夏</button><button data-epoch="yuan" type="button">蒙元</button><button data-epoch="ming" type="button">明</button><button data-epoch="qing" type="button">清与南明</button><button data-epoch="modern" type="button">近现代</button></div>
+<div class="app-layout">
+<aside class="search-panel" aria-label="查询条件">
+ <div class="tabs" role="tablist" aria-label="查询方向"><button role="tab" id="tab-gz" aria-selected="true" aria-controls="pane-gz">干支查</button><button role="tab" id="tab-solar" aria-selected="false" aria-controls="pane-solar">公历查</button><button role="tab" id="tab-lunar" aria-selected="false" aria-controls="pane-lunar">农历查</button></div>
+ <section id="pane-gz" role="tabpanel" aria-labelledby="tab-gz">
+  <form id="quick-form"><label for="quick">整句或年号<input id="quick" value="戊申年" placeholder="洪武十八年二月己未日"></label><button class="small-button quick-action" type="submit">解析并查询 →</button></form>
+  <div class="examples"><button data-example="ming" type="button">戊申年</button><button data-example="three" type="button">三国并观</button><button data-example="dali" type="button">大理天开</button></div>
+  <form id="gz-form"><div class="field-grid">
+   <label for="gz-year"><span>年或纪年</span><input id="gz-year" value="戊申" list="era-suggestions" placeholder="戊申 / 1385 / 蜀汉建兴三"></label>
+   <label for="gz-month"><span>月</span><input id="gz-month" placeholder="甲寅 / 二月 / 闰七月"></label>
+   <label for="gz-day"><span>日</span><input id="gz-day" placeholder="甲子 / 初一 / 廿七"></label>
+   <label for="gz-hour"><span>时</span><input id="gz-hour" placeholder="寅 / 丙寅 / 子初"></label>
+  </div><label class="mode-field" for="mode">年月口径<select id="mode"><option value="lunar">史历/农历月 · 按所选史历换年</option><option value="official">历书节月 · 交节日换年月</option><option value="modern">现代节月 · 交节时刻换年月</option></select></label><p id="mode-help" class="hint"></p><button class="primary search-button" type="submit">检索对应时间 →</button></form>
+ </section>
+ <section id="pane-solar" role="tabpanel" aria-labelledby="tab-solar" hidden>
+  <form id="solar-form"><p class="pane-intro">输入现代日期，并列查看基准农历、干支，以及有资料的各政权纪年和当地历日。</p><label for="solar-date">年月日<input id="solar-date" value="2026-11-09" placeholder="1385-04-15 / 前722-02-01"></label><label for="solar-kind">输入历法<select id="solar-kind"><option value="gregorian">公历 · 格里高利规则向前推算</option><option value="julian">儒略历 · 与部分旧史历表对照</option></select></label><label for="solar-time">时分（可留空）<input id="solar-time" type="time"></label><button class="primary search-button" type="submit">查看这一天 →</button><button class="small-button today-button" type="button" id="today">查看今天</button><p class="hint">公元前写“前722-02-01”，不使用公元0年。时辰为钟面区间，未作地方真太阳时校正。</p></form>
+ </section>
+ <section id="pane-lunar" role="tabpanel" aria-labelledby="tab-lunar" hidden>
+  <form id="lunar-form"><p class="pane-intro">古代各政权可能使用不同历法。默认查基准史历，也可指定政权。只知年号、年数时，可直接填“蜀汉建兴三”。</p><label for="lunar-year">农历年或年号年<input id="lunar-year" value="1385" list="era-suggestions" placeholder="1385 / 前221 / 蜀汉建兴三"></label><label for="lunar-polity">按哪一套历法<select id="lunar-polity"><option value="">基准史历（默认）</option></select></label><div class="lunar-md"><label for="lunar-month">月<input id="lunar-month" value="二" placeholder="二 / 闰七 / 后九"></label><label for="lunar-day">日<input id="lunar-day" value="廿七" placeholder="廿七 / 27 / 己未"></label></div><button class="primary search-button" type="submit">农历转公历与干支 →</button><p class="hint">数字年指该史历对应的公元编号，不是把古历强制改成今天的月份。缺少当地逐月资料时，会给出说明。</p></form>
+ </section>
+ <details class="advanced" open><summary>范围与换日规则</summary><div class="range-row"><label for="min-year">起年<input id="min-year" value="前2070" placeholder="前2070"></label><span>—</span><label for="max-year">止年<input id="max-year" value="2026"></label></div><label for="leap">闰月条件<select id="leap"><option value="all">普通月与闰月都查</option><option value="regular">只查普通月</option><option value="leap">只查闰月</option></select></label><label for="boundary">日、时干支换日<select id="boundary"><option value="midnight">00:00 子正换日</option><option value="zi">23:00 子初换日</option></select></label><p class="hint">同名年号保留多个政权候选。输入精度不足时，结果也保留相应精度。</p></details>
+ <div class="error" id="error" role="alert" hidden></div>
+</aside>
+<section class="main-panel" aria-label="换算结果">
+ <div class="result-heading"><div><p class="eyebrow" id="result-kicker">干支查询</p><h2 id="result-title" aria-live="polite"></h2><p class="hint" id="result-note"></p></div><button id="export" type="button" class="text-button">导出结果 CSV ↓</button></div>
+ <div id="notices" class="query-notices" aria-live="polite"></div>
+ <div id="year-cards" class="year-cards"></div><div id="year-overflow" hidden><label for="year-more">选择所有候选年份（含上古）<select id="year-more"></select></label></div>
+ <div id="matches" hidden><div class="table-wrap"><table><thead><tr><th>公历 / 年代范围</th><th>史历或年号信息</th><th>日干支 / 匹配时段</th><th>查看</th></tr></thead><tbody id="matches-body"></tbody></table></div><div class="pagination"><span id="page-note" class="hint"></span><div><button type="button" id="prev-page" class="small-button">上一页</button><button type="button" id="next-page" class="small-button">下一页</button></div></div></div>
+ <div id="empty" class="empty" hidden><strong>没有匹配结果</strong><p id="empty-note">可先去掉日、时条件，再核对年号、闰月与范围；古历资料不足时不会强行转换。</p></div>
+ <div class="calendar-detail">
+  <section class="calendar-panel" aria-labelledby="calendar-title"><div class="calendar-heading"><div><p class="eyebrow">现代公历月历</p><h2 id="calendar-title"></h2></div><div class="month-nav"><button class="small-button" id="prev-month" type="button" aria-label="上一个月">‹</button><button class="small-button" id="next-month" type="button" aria-label="下一个月">›</button></div></div>
+   <form class="calendar-jump" id="calendar-jump"><label class="sr-only" for="view-year">月历年份</label><input id="view-year" value="1385"><label class="sr-only" for="view-month">月历月份</label><select id="view-month"></select><button class="small-button" type="submit">跳转</button></form><div class="weekdays" aria-hidden="true"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div><div id="calendar-grid" class="calendar-grid"></div><div class="calendar-legend"><span><i class="legend-match"></i>查询命中</span><span><i class="legend-selected"></i>正在查看</span><span class="hint">点击某日反查；无史历资料处显示“历日未定”。</span></div>
+  </section>
+  <section class="day-panel" aria-labelledby="selected-title"><p class="eyebrow">这一天</p><h2 id="selected-title"></h2><p id="selected-weekday" class="hint"></p><div id="day-facts"></div><div id="pillars" class="pillars"></div><label for="inspect-hour" class="inspect-hour">查看时辰<select id="inspect-hour"></select></label><div id="hour-result" class="hour-result"></div><div id="day-note" class="term-note"></div><div class="day-actions"><button id="copy-day" class="small-button" type="button">复制日期信息</button><span id="copy-status" class="hint" aria-live="polite"></span></div></section>
+ </div>
+ <section class="concurrent" aria-labelledby="concurrent-title"><div class="concurrent-heading"><div><p class="eyebrow">多政权纪年并列</p><h2 id="concurrent-title">同一时期，怎样纪年</h2></div><label for="era-scope"><span class="sr-only">纪年显示范围</span><select id="era-scope"><option value="day">本日历表对照</option><option value="month">本月所有纪年</option><option value="year">本年所有纪年</option></select></label></div><p class="hint" id="concurrent-note"></p><div id="era-results" aria-live="polite"></div></section>
+ <details id="year-months" class="year-months"><summary id="year-months-title">展开全年农历/史历月表</summary><div class="table-wrap"><table><thead><tr><th>史历月名</th><th>月干支</th><th>公历范围（首尾包含）</th><th>月长</th></tr></thead><tbody id="year-months-body"></tbody></table></div></details>
+</section></div>
+<section id="birth-chart" class="birth-section" aria-labelledby="birth-title">
+ <div class="result-heading"><div><p class="eyebrow">生日 · 四柱 · 纳音</p><h2 id="birth-title">输入生日，排出四柱。</h2><p class="hint">输入公历或农历生日，查看生辰八字、每柱纳音、日主及月令格局参考。</p></div><span class="badge">依据《卜筮全书·六十甲子歌》</span></div>
+ <div class="birth-layout">
+  <form id="birth-form" class="birth-form">
+   <label for="birth-calendar">生日历法<select id="birth-calendar"><option value="gregorian">公历生日</option><option value="lunar">农历 / 史历生日</option><option value="julian">儒略历生日（历史资料）</option></select></label>
+   <div id="birth-solar-fields"><label for="birth-date">出生日期<input id="birth-date" value="1986-05-29" placeholder="1986-05-29 / 前722-02-01"></label></div>
+   <div id="birth-lunar-fields" hidden>
+    <label for="birth-lunar-year">农历年 / 完整年号年<input id="birth-lunar-year" value="1380" list="era-suggestions" placeholder="1380 / 洪武十三"></label>
+    <div class="birth-two-fields"><label for="birth-lunar-month">月<input id="birth-lunar-month" value="十一" placeholder="十一 / 闰二 / 后九"></label><label for="birth-lunar-day">日<input id="birth-lunar-day" value="廿三" placeholder="廿三 / 23"></label></div>
+    <label for="birth-leap">月份条件<select id="birth-leap"><option value="regular">只查普通月</option><option value="leap">只查闰月</option><option value="all">普通月、闰月都查</option></select></label>
+    <label for="birth-polity">农历所据历表<select id="birth-polity"><option value="">基准史历（默认）</option></select></label>
+   </div>
+   <label for="birth-time-mode">出生时间精度<select id="birth-time-mode"><option value="exact">知道具体时分（留空则时辰未定）</option><option value="branch">只知道时辰</option><option value="unknown">时辰不详</option></select></label>
+   <label for="birth-time" id="birth-time-field">出生时分<input type="time" id="birth-time"><span class="hint">没有时分就留空，不默认补成00:00。</span></label>
+   <label for="birth-branch" id="birth-branch-field" hidden>出生时辰<select id="birth-branch"></select></label>
+   <details class="birth-options"><summary>换日、节气与时间口径</summary>
+    <label for="birth-boundary">日柱、时干换日<select id="birth-boundary"><option value="zi">子初：日柱和时干均23:00换日</option><option value="midnight">子正：日柱和时干均00:00换日</option><option value="split">早晚子：日柱00:00、时干23:00</option></select></label>
+    <label for="birth-term-mode">年柱 / 月柱分界<select id="birth-term-mode"><option value="modern">现代定气 · 按交节时刻（默认）</option><option value="official">历书节气 · 按交节日期</option></select></label>
+    <label for="birth-offset">输入钟面时间的UTC时差<input id="birth-offset" type="number" value="8" min="-12" max="14" step="0.25"><span class="hint">默认+8。若出生记录采用夏令时，请填当时的实际UTC时差；不自动校正地方真太阳时。</span></label>
+   </details>
+   <button class="primary search-button" type="submit">生成八字与纳音 →</button>
+   <button type="button" class="small-button birth-use-date" id="birth-use-date">使用上方正在查看的日期</button>
+   <div class="birth-examples"><button type="button" data-birth-example="classic">试填：庚申 戊子 癸丑</button><button type="button" data-birth-example="spring">试填：立春前后</button></div>
+   <div id="birth-error" class="error" role="alert" hidden></div>
+  </form>
+  <div class="birth-output" aria-live="polite">
+   <div id="birth-welcome" class="birth-welcome"><span class="birth-symbol" aria-hidden="true">命</span><h3>四柱各有纳音，日干定日主。</h3><p>填入生日后，四柱、五行、纳音和命格参考会一起显示。</p><p class="hint">年柱以立春换年，月柱以十二节换月；农历初一不直接作为八字月柱分界。</p></div>
+   <div id="birth-date-choice-wrap" class="birth-date-choices" hidden><label for="birth-date-choice">找到多个日期候选，请先选定出生日期<select id="birth-date-choice"></select></label><p class="hint">同名年号或闰月不明时保留全部候选，不自动猜测。</p></div>
+   <div id="birth-result" hidden>
+    <div class="birth-result-heading"><div><p class="eyebrow" id="birth-result-label"></p><h3 id="birth-result-title"></h3><p class="hint" id="birth-date-note"></p></div><button class="small-button" type="button" id="birth-copy">复制排盘</button></div>
+    <div id="birth-notes" class="query-notices"></div>
+    <div id="birth-chart-choices" class="birth-chart-choices"></div>
+    <div id="birth-pillars" class="birth-pillars"></div>
+    <div class="birth-summary" id="birth-summary"></div>
+    <div class="birth-elements" id="birth-elements"></div>
+    <details class="birth-evidence" open><summary>命格参考的依据与适用范围</summary><div id="birth-pattern-evidence"></div><p class="hint">命格参考采用“月令本气取格”简法，并列藏干透出线索，不代替完整取格；年命纳音、日主和格局分别显示。此处是传统术数的文化分类，不作人生吉凶预测。</p></details>
+    <p class="hint birth-copy-status" id="birth-copy-status" aria-live="polite"></p>
+   </div>
+  </div>
+ </div>
+ <details class="birth-reference"><summary>展开六十甲子整柱纳音对照表与排盘口径</summary><p>纳音逐项据《卜筮全书·六十甲子歌》，保留“路傍土”“井泉水”“砂中金”“覆灯火”等原书名称。四柱查同一张表；纳音五行与天干、地支本气分别计算。</p><div class="table-wrap"><table><thead><tr><th>干支</th><th>整柱纳音</th><th>纳音五行</th></tr></thead><tbody id="birth-nayin-table"></tbody></table></div><p>四柱年柱按立春、月柱按十二节划界；默认用现代定气回排，历史资料也可选择历书交节日。日柱和时干支持三种换日口径。时辰不详或跨越交节时分时保留缺项和候选；古代时刻未作地方真太阳时校正。</p><p>年命显示立春年柱口径；同时列农历岁首口径以便核对。月令参考按本气、日干十神关系及禄/阳刃位置列名，并展示年、月、时干中的透干线索；杂气月和时柱缺失另作提示，不自动判成格、从格、喜用神或富贵层次。</p><p>纳音原文：<a href="https://www.shidianguji.com/zh/book/HY1394/chapter/1l3wdooouerec">《卜筮全书·六十甲子歌》</a>；起月、起时和十神对应可参<a href="https://www.shidianguji.com/zh/mid-page/7459881163236376613">《权衡一书》所录歌诀</a>；月令取格原则参<a href="https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen">《子平真诠·论用神》</a>。具体简化规则已明列于此，不能理解为《六十甲子歌》本身包含一套自动论命法。</p></details>
+</section>
+<section id="catalogue" class="catalogue"><div class="result-heading"><div><p class="eyebrow">全部已收录记录</p><h2>政权、年号与君主纪年索引</h2><p class="hint" id="catalogue-count"></p></div></div><form id="catalogue-form" class="catalogue-controls"><label class="sr-only" for="catalogue-search">搜索政权、年号或君主</label><input id="catalogue-search" placeholder="搜索：大理、建兴、乾隆、太平天国……"><button type="submit" class="small-button">搜索</button><button type="button" class="small-button" id="catalogue-clear">全部</button><button type="button" class="small-button" id="catalogue-export">导出索引</button></form><div class="table-wrap"><table><thead><tr><th>政权 / 地方势力</th><th>年号或君主纪年</th><th>时间与资料精度</th><th>来源 / 操作</th></tr></thead><tbody id="catalogue-body"></tbody></table></div><div class="pagination"><span id="catalogue-page" class="hint"></span><div><button type="button" id="catalogue-prev" class="small-button">上一页</button><button type="button" id="catalogue-next" class="small-button">下一页</button></div></div></section>
+<section id="rules" class="rules"><div class="rules-heading"><p class="eyebrow">口径与证据</p><h2>查得到什么，就显示到什么精度。</h2></div><div class="rule-grid">
+ <article><span class="rule-number">01</span><h3>夏商无完整逐日农历</h3><p>约前2070年作为夏代年代入口，依通行年代简表取范围。夏商及早期西周年代仍有争论；无可靠逐日农历时，只列年代和数学回推的干支，不制造精确日期。汉武帝以前还没有年号制度，使用君主纪年。</p></article>
+ <article><span class="rule-number">02</span><h3>同日可以对应不同历日</h3><p>三国、南北朝等时期可能各有历法。同名年号、继用前朝年号、年内改元均需保留政权及来源。基准农历不代表当日所有地方使用同一历法；各政权有独立资料时分行显示，缺失时不借用主历冒充当地历日。</p></article>
+ <article><span class="rule-number">03</span><h3>日界与年代不可混用</h3><p>公历全段用格里高利规则向前推算，儒略历另列。干支时辰约合两小时，未校正经度与地方真太阳时；晚子时可切换00:00/23:00换日。农历月日仍按民用日期标注，不能恢复史料未载的分钟。</p></article>
+</div><details class="source-details"><summary>数据来源、覆盖与许可详情</summary>
+<p>本版生成于2026-11-09。主历来源为 <a href="https://github.com/ytliu0/ChineseCalendar">Y. T. Liu / ChineseCalendar</a>，固定版本719e02ff011ab122aad5fb29084e3f6ee8b65390，GPL-3.0；依作者的<a href="https://ytliu0.github.io/ChineseCalendar/computation_chinese.html">史历编算说明</a>，前722年起包含历史历表与古历复原。前104年以后主要依《三千五百年历日天象》及勘误，清代与近代历日另有校正。春秋战国默认分别采用鲁历、颛顼历复原，只是查询基准。</p>
+<p>政权纪年和当地历日来源为 <a href="https://github.com/kanasimi/CeJS">kanasimi / CeJS</a>，固定版本0e10a9dffc1315c29f4e0868366bc0580a072c44，BSD-3-Clause。保留原资料的“精度仅到年/月”“疑”“准度不足”和对照期编排；来源的年初追记、继用、复称不自动等同于政权实际建亡日期。日级对照依该历表边界，不保证每一条都是当日宣告改元的界限。</p>
+<p>年度补充来自<a href="https://zh.wikipedia.org/wiki/中国年号列表">维基百科贡献者《中国年号列表》</a>（CC BY-SA 4.0），主要补缺南诏、大理等地方纪年及异说。只有年级资料的记录列为年度候选，不把公历1月1日当成该年号生效日；疑伪或误记名称保留在索引，明确判为伪作的条目不自动附会某一天。来源可能有遗漏或错误，工具保留来源、原始表和编译报告，不宣称已穷尽全部未知小政权。</p>
+<p>上古年代范围依<a href="https://www.locpg.gov.cn/zggq/2014-01/04/c_125956418.htm">中国政府网《中国历史纪年简表》转载</a>。简繁检索采用<a href="https://github.com/BYVoid/OpenCC">OpenCC</a>字符数据（Apache-2.0），纪年专名保留“乾”等写法。近现代显示公元、民国等纪年制度，不把近现代领导人姓名当成皇帝年号。</p>
+<p>“历书节月”使用来源提供的历书交节日期，交节日00:00换月，1645年前为平气、以后为定气；1734年后缺独立旧历书节气表时，用现代定气日期参照。现代节月使用DE441定气推算时刻（UT1+8/UTC+8，到分钟），不等于古代实际观测时刻。春秋部分缺少历书节气，不补成确定月干支。</p>
+<p>生日排盘的整柱纳音逐项据《卜筮全书·六十甲子歌》，起月、起时与十神按明列规则计算。命格仅作月令本气与透干线索参考，和年命纳音、日主分开。节气到分钟；时辰不详、上古历表不足及交节跨界时保留缺项或候选。</p><p>程序派生部分沿用GPL-3.0；第三方资料分别保留其许可。离线文件内包含所需数据、脚本与许可证，日常使用不联网、不登录、不上传输入。完整可修改源码及上游资料另附于本地文件夹与<a href="source.zip">source.zip</a>。关键历史日期应结合原始历书、简牍、碑刻或权威历表复核。</p>
+</details><div id="licenses"></div></section>
+</main><footer><span>MQ中国历史历日检索 · 离线版</span><span id="footer-stats"></span><a href="#">返回顶部 ↑</a></footer><datalist id="era-suggestions"></datalist>
+</body></html>

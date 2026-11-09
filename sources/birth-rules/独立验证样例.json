@@ -1,0 +1,19 @@
+{
+  "retrieved": "2026-11-09",
+  "source": "6tail/lunar-javascript official EightChar tests; dates and expected-pillar facts only",
+  "reference": "https://api.github.com/repos/6tail/lunar-javascript/git/blobs/bef34c78a09b938b1b24df6e314cfce3875c1377",
+  "cases": [
+    {"date": "2005-12-23", "time": "08:37", "boundary": "zi", "expected": "乙酉 戊子 辛巳 壬辰"},
+    {"date": "1988-02-15", "time": "23:30", "boundary": "zi", "expected": "戊辰 甲寅 辛丑 戊子"},
+    {"date": "1988-02-15", "time": "23:30", "boundary": "split", "expected": "戊辰 甲寅 庚子 戊子"},
+    {"date": "1988-02-15", "time": "22:30", "boundary": "zi", "expected": "戊辰 甲寅 庚子 丁亥"},
+    {"date": "1988-02-02", "time": "22:30", "boundary": "zi", "expected": "丁卯 癸丑 丁亥 辛亥"},
+    {"date": "1999-06-07", "time": "09:11", "boundary": "zi", "expected": "己卯 庚午 庚寅 辛巳"},
+    {"date": "1937-03-27", "time": "18:00", "boundary": "split", "expected": "丁丑 癸卯 癸丑 辛酉"},
+    {"date": "1997-03-12", "time": "18:00", "boundary": "split", "expected": "丁丑 癸卯 癸丑 辛酉"},
+    {"date": "1987-08-03", "time": "02:00", "boundary": "zi", "expected": "丁卯 丁未 甲申 乙丑"},
+    {"date": "1812-02-18", "time": "16:00", "boundary": "zi", "expected": "壬申 壬寅 庚辰 甲申"},
+    {"date": "1992-03-05", "time": "15:00", "boundary": "zi", "expected": "壬申 壬寅 庚辰 甲申"}
+  ],
+  "solar_term_reference": {"source": "Hong Kong Observatory Almanac 2024", "url": "https://www.hko.gov.hk/tc/gts/astron2024/files/HKO_almanac_2024.pdf", "lichun": "2024-02-04 16:27 UTC+8"}
+}

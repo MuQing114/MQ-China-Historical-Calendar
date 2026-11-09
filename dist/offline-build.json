@@ -1,0 +1,16 @@
+{
+  "version": "2.1.0",
+  "built": "2026-11-09",
+  "features": [
+    "historical-calendar",
+    "concurrent-eras",
+    "birth-eight-characters",
+    "nayin",
+    "monthly-main-qi-pattern-reference"
+  ],
+  "offline": "C:\\Users\\1\\Documents\\ChatGPT\\大明幺二幺\\中国历史历日检索\\dist\\MQ中国历史历日检索_夏至今_离线版.html",
+  "offline_bytes": 8843990,
+  "source_bytes": 5802187,
+  "source_files": 71,
+  "offline_sha256": "4147bef15a7d4588c51b537c587e73f2165a0b96dd4687ef5ead9b63ea06aec5"
+}

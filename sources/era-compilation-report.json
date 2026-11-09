@@ -1,0 +1,2860 @@
+{
+  "input": 1481,
+  "records": 1456,
+  "polities": [
+    "西周",
+    "东周",
+    "宋国",
+    "晋国",
+    "齐国",
+    "田齐",
+    "蔡国",
+    "陈国",
+    "鲁国",
+    "曹国",
+    "吴国",
+    "楚国",
+    "燕国",
+    "卫国",
+    "赵氏",
+    "赵国",
+    "郑国",
+    "韩氏",
+    "韩国",
+    "魏国",
+    "秦国",
+    "秦",
+    "西汉",
+    "新",
+    "更始朝",
+    "东汉",
+    "赤眉",
+    "成家",
+    "蜀",
+    "吴",
+    "魏",
+    "西晋",
+    "张汉",
+    "东晋",
+    "桓楚",
+    "成汉",
+    "汉赵",
+    "前赵",
+    "大秦",
+    "后赵",
+    "前凉",
+    "后凉",
+    "前燕",
+    "后燕",
+    "前秦",
+    "后秦",
+    "西秦",
+    "南凉",
+    "西凉",
+    "北凉",
+    "高昌",
+    "南燕",
+    "北燕",
+    "胡夏",
+    "冉魏",
+    "代国",
+    "丁零",
+    "翟魏",
+    "鲜于赵",
+    "西燕",
+    "刘宋",
+    "南齐",
+    "南梁",
+    "陈",
+    "仇池",
+    "唐吴",
+    "侯汉",
+    "北魏",
+    "东魏",
+    "西魏",
+    "葛齐",
+    "萧齐",
+    "稽胡",
+    "柔然",
+    "北齐",
+    "北周",
+    "后梁",
+    "隋",
+    "朱楚",
+    "林楚",
+    "刘汉",
+    "梁国",
+    "薛秦",
+    "萧梁",
+    "李凉",
+    "唐",
+    "燕",
+    "朱秦",
+    "朱汉",
+    "吐蕃",
+    "朱梁",
+    "后唐",
+    "后晋",
+    "后汉",
+    "后周",
+    "渤海",
+    "杨吴",
+    "南唐",
+    "吴越",
+    "闽",
+    "北汉",
+    "前蜀",
+    "后蜀",
+    "岐",
+    "南楚",
+    "荆南",
+    "南汉",
+    "北宋",
+    "李蜀",
+    "王蜀",
+    "安阳",
+    "长生国",
+    "大历国",
+    "南天国",
+    "大南",
+    "南宋",
+    "刘齐",
+    "辽",
+    "东丹",
+    "定安",
+    "兴辽",
+    "大渤海",
+    "北辽",
+    "西辽",
+    "西夏",
+    "金",
+    "大蒙古国",
+    "元",
+    "北元",
+    "瓦剌",
+    "明",
+    "南明",
+    "明郑",
+    "大顺",
+    "大西",
+    "后金",
+    "清",
+    "大明",
+    "天运",
+    "太平天囯",
+    "刘明",
+    "大清",
+    "中华帝国",
+    "满洲国",
+    "满洲帝国"
+  ],
+  "monthSlices": 70426,
+  "withoutCalendar": [
+    {
+      "id": "C0",
+      "polity": "西周",
+      "era": "共和",
+      "precision": "年"
+    },
+    {
+      "id": "C1",
+      "polity": "西周",
+      "era": "宣王",
+      "precision": "年"
+    },
+    {
+      "id": "C2",
+      "polity": "西周",
+      "era": "幽王",
+      "precision": "年"
+    },
+    {
+      "id": "C3",
+      "polity": "东周",
+      "era": "携王",
+      "precision": "年"
+    },
+    {
+      "id": "C4",
+      "polity": "东周",
+      "era": "平王",
+      "precision": "年"
+    },
+    {
+      "id": "C5",
+      "polity": "东周",
+      "era": "桓王",
+      "precision": "年"
+    },
+    {
+      "id": "C6",
+      "polity": "东周",
+      "era": "庄王",
+      "precision": "年"
+    },
+    {
+      "id": "C7",
+      "polity": "东周",
+      "era": "僖王",
+      "precision": "年"
+    },
+    {
+      "id": "C8",
+      "polity": "东周",
+      "era": "惠王",
+      "precision": "年"
+    },
+    {
+      "id": "C9",
+      "polity": "东周",
+      "era": "襄王",
+      "precision": "年"
+    },
+    {
+      "id": "C10",
+      "polity": "东周",
+      "era": "顷王",
+      "precision": "年"
+    },
+    {
+      "id": "C11",
+      "polity": "东周",
+      "era": "匡王",
+      "precision": "年"
+    },
+    {
+      "id": "C12",
+      "polity": "东周",
+      "era": "定王",
+      "precision": "年"
+    },
+    {
+      "id": "C13",
+      "polity": "东周",
+      "era": "简王",
+      "precision": "年"
+    },
+    {
+      "id": "C14",
+      "polity": "东周",
+      "era": "灵王",
+      "precision": "年"
+    },
+    {
+      "id": "C15",
+      "polity": "东周",
+      "era": "景王",
+      "precision": "年"
+    },
+    {
+      "id": "C16",
+      "polity": "东周",
+      "era": "敬王",
+      "precision": "年"
+    },
+    {
+      "id": "C17",
+      "polity": "东周",
+      "era": "元王",
+      "precision": "年"
+    },
+    {
+      "id": "C18",
+      "polity": "东周",
+      "era": "贞定王",
+      "precision": "年"
+    },
+    {
+      "id": "C19",
+      "polity": "东周",
+      "era": "考王",
+      "precision": "年"
+    },
+    {
+      "id": "C20",
+      "polity": "东周",
+      "era": "威烈王",
+      "precision": "年"
+    },
+    {
+      "id": "C21",
+      "polity": "东周",
+      "era": "安王",
+      "precision": "年"
+    },
+    {
+      "id": "C22",
+      "polity": "东周",
+      "era": "烈王",
+      "precision": "年"
+    },
+    {
+      "id": "C23",
+      "polity": "东周",
+      "era": "显王",
+      "precision": "年"
+    },
+    {
+      "id": "C24",
+      "polity": "东周",
+      "era": "慎靓王",
+      "precision": "年"
+    },
+    {
+      "id": "C25",
+      "polity": "东周",
+      "era": "赧王",
+      "precision": "年"
+    },
+    {
+      "id": "C26",
+      "polity": "宋国",
+      "era": "僖公",
+      "precision": "年"
+    },
+    {
+      "id": "C27",
+      "polity": "宋国",
+      "era": "惠公",
+      "precision": "年"
+    },
+    {
+      "id": "C28",
+      "polity": "宋国",
+      "era": "戴公",
+      "precision": "年"
+    },
+    {
+      "id": "C29",
+      "polity": "宋国",
+      "era": "武公",
+      "precision": "年"
+    },
+    {
+      "id": "C30",
+      "polity": "宋国",
+      "era": "宣公",
+      "precision": "年"
+    },
+    {
+      "id": "C31",
+      "polity": "宋国",
+      "era": "穆公",
+      "precision": "年"
+    },
+    {
+      "id": "C32",
+      "polity": "宋国",
+      "era": "殇公",
+      "precision": "年"
+    },
+    {
+      "id": "C33",
+      "polity": "宋国",
+      "era": "溤",
+      "precision": "年"
+    },
+    {
+      "id": "C34",
+      "polity": "宋国",
+      "era": "愍公",
+      "precision": "年"
+    },
+    {
+      "id": "C35",
+      "polity": "宋国",
+      "era": "桓公",
+      "precision": "年"
+    },
+    {
+      "id": "C36",
+      "polity": "宋国",
+      "era": "襄公",
+      "precision": "年"
+    },
+    {
+      "id": "C37",
+      "polity": "宋国",
+      "era": "成公",
+      "precision": "年"
+    },
+    {
+      "id": "C38",
+      "polity": "宋国",
+      "era": "昭公",
+      "precision": "年"
+    },
+    {
+      "id": "C39",
+      "polity": "宋国",
+      "era": "文公",
+      "precision": "年"
+    },
+    {
+      "id": "C40",
+      "polity": "宋国",
+      "era": "共公",
+      "precision": "年"
+    },
+    {
+      "id": "C41",
+      "polity": "宋国",
+      "era": "平公",
+      "precision": "年"
+    },
+    {
+      "id": "C42",
+      "polity": "宋国",
+      "era": "元公",
+      "precision": "年"
+    },
+    {
+      "id": "C43",
+      "polity": "宋国",
+      "era": "景公",
+      "precision": "年"
+    },
+    {
+      "id": "C44",
+      "polity": "晋国",
+      "era": "靖侯",
+      "precision": "年"
+    },
+    {
+      "id": "C45",
+      "polity": "晋国",
+      "era": "厘侯",
+      "precision": "年"
+    },
+    {
+      "id": "C46",
+      "polity": "晋国",
+      "era": "献侯",
+      "precision": "年"
+    },
+    {
+      "id": "C47",
+      "polity": "晋国",
+      "era": "穆侯",
+      "precision": "年"
+    },
+    {
+      "id": "C48",
+      "polity": "晋国",
+      "era": "殇叔",
+      "precision": "年"
+    },
+    {
+      "id": "C49",
+      "polity": "晋国",
+      "era": "文侯",
+      "precision": "年"
+    },
+    {
+      "id": "C50",
+      "polity": "晋国",
+      "era": "昭侯",
+      "precision": "年"
+    },
+    {
+      "id": "C51",
+      "polity": "晋国",
+      "era": "孝侯",
+      "precision": "年"
+    },
+    {
+      "id": "C52",
+      "polity": "晋国",
+      "era": "鄂侯",
+      "precision": "年"
+    },
+    {
+      "id": "C53",
+      "polity": "晋国",
+      "era": "哀侯",
+      "precision": "年"
+    },
+    {
+      "id": "C54",
+      "polity": "晋国",
+      "era": "小子",
+      "precision": "年"
+    },
+    {
+      "id": "C55",
+      "polity": "晋国",
+      "era": "缗",
+      "precision": "年"
+    },
+    {
+      "id": "C56",
+      "polity": "晋国",
+      "era": "桓叔",
+      "precision": "年"
+    },
+    {
+      "id": "C57",
+      "polity": "晋国",
+      "era": "庄伯",
+      "precision": "年"
+    },
+    {
+      "id": "C58",
+      "polity": "晋国",
+      "era": "武公",
+      "precision": "年"
+    },
+    {
+      "id": "C59",
+      "polity": "晋国",
+      "era": "献公",
+      "precision": "年"
+    },
+    {
+      "id": "C60",
+      "polity": "晋国",
+      "era": "惠公",
+      "precision": "年"
+    },
+    {
+      "id": "C61",
+      "polity": "晋国",
+      "era": "文公",
+      "precision": "年"
+    },
+    {
+      "id": "C62",
+      "polity": "晋国",
+      "era": "襄公",
+      "precision": "年"
+    },
+    {
+      "id": "C63",
+      "polity": "晋国",
+      "era": "灵公",
+      "precision": "年"
+    },
+    {
+      "id": "C64",
+      "polity": "晋国",
+      "era": "成公",
+      "precision": "年"
+    },
+    {
+      "id": "C65",
+      "polity": "晋国",
+      "era": "景公",
+      "precision": "年"
+    },
+    {
+      "id": "C66",
+      "polity": "晋国",
+      "era": "厉公",
+      "precision": "年"
+    },
+    {
+      "id": "C67",
+      "polity": "晋国",
+      "era": "悼公",
+      "precision": "年"
+    },
+    {
+      "id": "C68",
+      "polity": "晋国",
+      "era": "平公",
+      "precision": "年"
+    },
+    {
+      "id": "C69",
+      "polity": "晋国",
+      "era": "昭公",
+      "precision": "年"
+    },
+    {
+      "id": "C70",
+      "polity": "晋国",
+      "era": "顷公",
+      "precision": "年"
+    },
+    {
+      "id": "C71",
+      "polity": "晋国",
+      "era": "定公",
+      "precision": "年"
+    },
+    {
+      "id": "C72",
+      "polity": "晋国",
+      "era": "出公",
+      "precision": "年"
+    },
+    {
+      "id": "C73",
+      "polity": "晋国",
+      "era": "敬公",
+      "precision": "年"
+    },
+    {
+      "id": "C74",
+      "polity": "晋国",
+      "era": "幽公",
+      "precision": "年"
+    },
+    {
+      "id": "C75",
+      "polity": "晋国",
+      "era": "烈公",
+      "precision": "年"
+    },
+    {
+      "id": "C76",
+      "polity": "晋国",
+      "era": "桓公",
+      "precision": "年"
+    },
+    {
+      "id": "C77",
+      "polity": "齐国",
+      "era": "胡公",
+      "precision": "年"
+    },
+    {
+      "id": "C78",
+      "polity": "齐国",
+      "era": "献公",
+      "precision": "年"
+    },
+    {
+      "id": "C79",
+      "polity": "齐国",
+      "era": "武公",
+      "precision": "年"
+    },
+    {
+      "id": "C80",
+      "polity": "齐国",
+      "era": "厉公",
+      "precision": "年"
+    },
+    {
+      "id": "C81",
+      "polity": "齐国",
+      "era": "文公",
+      "precision": "年"
+    },
+    {
+      "id": "C82",
+      "polity": "齐国",
+      "era": "成公",
+      "precision": "年"
+    },
+    {
+      "id": "C83",
+      "polity": "齐国",
+      "era": "庄公姜购",
+      "precision": "年"
+    },
+    {
+      "id": "C84",
+      "polity": "齐国",
+      "era": "厘公",
+      "precision": "年"
+    },
+    {
+      "id": "C85",
+      "polity": "齐国",
+      "era": "襄公",
+      "precision": "年"
+    },
+    {
+      "id": "C86",
+      "polity": "齐国",
+      "era": "桓公姜小白",
+      "precision": "年"
+    },
+    {
+      "id": "C87",
+      "polity": "齐国",
+      "era": "孝公",
+      "precision": "年"
+    },
+    {
+      "id": "C88",
+      "polity": "齐国",
+      "era": "昭公",
+      "precision": "年"
+    },
+    {
+      "id": "C89",
+      "polity": "齐国",
+      "era": "懿公",
+      "precision": "年"
+    },
+    {
+      "id": "C90",
+      "polity": "齐国",
+      "era": "惠公",
+      "precision": "年"
+    },
+    {
+      "id": "C91",
+      "polity": "齐国",
+      "era": "顷公",
+      "precision": "年"
+    },
+    {
+      "id": "C92",
+      "polity": "齐国",
+      "era": "灵公",
+      "precision": "年"
+    },
+    {
+      "id": "C93",
+      "polity": "齐国",
+      "era": "庄公姜光",
+      "precision": "年"
+    },
+    {
+      "id": "C94",
+      "polity": "齐国",
+      "era": "景公",
+      "precision": "年"
+    },
+    {
+      "id": "C95",
+      "polity": "齐国",
+      "era": "晏孺子",
+      "precision": "年"
+    },
+    {
+      "id": "C96",
+      "polity": "齐国",
+      "era": "悼公",
+      "precision": "年"
+    },
+    {
+      "id": "C97",
+      "polity": "齐国",
+      "era": "简公",
+      "precision": "年"
+    },
+    {
+      "id": "C98",
+      "polity": "齐国",
+      "era": "平公",
+      "precision": "年"
+    },
+    {
+      "id": "C99",
+      "polity": "齐国",
+      "era": "宣公",
+      "precision": "年"
+    },
+    {
+      "id": "C100",
+      "polity": "齐国",
+      "era": "康公",
+      "precision": "年"
+    },
+    {
+      "id": "C101",
+      "polity": "田齐",
+      "era": "田悼",
+      "precision": "年"
+    },
+    {
+      "id": "C102",
+      "polity": "田齐",
+      "era": "田和",
+      "precision": "年"
+    },
+    {
+      "id": "C103",
+      "polity": "田齐",
+      "era": "太公",
+      "precision": "年"
+    },
+    {
+      "id": "C104",
+      "polity": "田齐",
+      "era": "田剡",
+      "precision": "年"
+    },
+    {
+      "id": "C105",
+      "polity": "田齐",
+      "era": "桓公",
+      "precision": "年"
+    },
+    {
+      "id": "C106",
+      "polity": "田齐",
+      "era": "威王",
+      "precision": "年"
+    },
+    {
+      "id": "C107",
+      "polity": "田齐",
+      "era": "宣王",
+      "precision": "年"
+    },
+    {
+      "id": "C108",
+      "polity": "田齐",
+      "era": "愍王",
+      "precision": "年"
+    },
+    {
+      "id": "C109",
+      "polity": "田齐",
+      "era": "襄王",
+      "precision": "年"
+    },
+    {
+      "id": "C110",
+      "polity": "田齐",
+      "era": "田建",
+      "precision": "年"
+    },
+    {
+      "id": "C111",
+      "polity": "蔡国",
+      "era": "武侯",
+      "precision": "年"
+    },
+    {
+      "id": "C112",
+      "polity": "蔡国",
+      "era": "夷侯",
+      "precision": "年"
+    },
+    {
+      "id": "C113",
+      "polity": "蔡国",
+      "era": "厘侯",
+      "precision": "年"
+    },
+    {
+      "id": "C114",
+      "polity": "蔡国",
+      "era": "共侯",
+      "precision": "年"
+    },
+    {
+      "id": "C115",
+      "polity": "蔡国",
+      "era": "戴侯",
+      "precision": "年"
+    },
+    {
+      "id": "C116",
+      "polity": "蔡国",
+      "era": "宣侯",
+      "precision": "年"
+    },
+    {
+      "id": "C117",
+      "polity": "蔡国",
+      "era": "桓侯",
+      "precision": "年"
+    },
+    {
+      "id": "C118",
+      "polity": "蔡国",
+      "era": "哀侯",
+      "precision": "年"
+    },
+    {
+      "id": "C119",
+      "polity": "蔡国",
+      "era": "穆侯",
+      "precision": "年"
+    },
+    {
+      "id": "C120",
+      "polity": "蔡国",
+      "era": "庄侯",
+      "precision": "年"
+    },
+    {
+      "id": "C121",
+      "polity": "蔡国",
+      "era": "文侯",
+      "precision": "年"
+    },
+    {
+      "id": "C122",
+      "polity": "蔡国",
+      "era": "景侯",
+      "precision": "年"
+    },
+    {
+      "id": "C123",
+      "polity": "蔡国",
+      "era": "灵侯",
+      "precision": "年"
+    },
+    {
+      "id": "C124",
+      "polity": "蔡国",
+      "era": "平侯",
+      "precision": "年"
+    },
+    {
+      "id": "C125",
+      "polity": "蔡国",
+      "era": "悼侯",
+      "precision": "年"
+    },
+    {
+      "id": "C126",
+      "polity": "蔡国",
+      "era": "昭侯",
+      "precision": "年"
+    },
+    {
+      "id": "C127",
+      "polity": "蔡国",
+      "era": "成侯",
+      "precision": "年"
+    },
+    {
+      "id": "C128",
+      "polity": "陈国",
+      "era": "幽公",
+      "precision": "年"
+    },
+    {
+      "id": "C129",
+      "polity": "陈国",
+      "era": "厘公",
+      "precision": "年"
+    },
+    {
+      "id": "C130",
+      "polity": "陈国",
+      "era": "武公",
+      "precision": "年"
+    },
+    {
+      "id": "C131",
+      "polity": "陈国",
+      "era": "夷公",
+      "precision": "年"
+    },
+    {
+      "id": "C132",
+      "polity": "陈国",
+      "era": "平公",
+      "precision": "年"
+    },
+    {
+      "id": "C133",
+      "polity": "陈国",
+      "era": "文公",
+      "precision": "年"
+    },
+    {
+      "id": "C134",
+      "polity": "陈国",
+      "era": "桓公",
+      "precision": "年"
+    },
+    {
+      "id": "C135",
+      "polity": "陈国",
+      "era": "厉公",
+      "precision": "年"
+    },
+    {
+      "id": "C136",
+      "polity": "陈国",
+      "era": "庄公",
+      "precision": "年"
+    },
+    {
+      "id": "C137",
+      "polity": "陈国",
+      "era": "宣公",
+      "precision": "年"
+    },
+    {
+      "id": "C138",
+      "polity": "陈国",
+      "era": "穆公",
+      "precision": "年"
+    },
+    {
+      "id": "C139",
+      "polity": "陈国",
+      "era": "共公",
+      "precision": "年"
+    },
+    {
+      "id": "C140",
+      "polity": "陈国",
+      "era": "灵公",
+      "precision": "年"
+    },
+    {
+      "id": "C141",
+      "polity": "陈国",
+      "era": "成公",
+      "precision": "年"
+    },
+    {
+      "id": "C142",
+      "polity": "陈国",
+      "era": "哀公",
+      "precision": "年"
+    },
+    {
+      "id": "C143",
+      "polity": "陈国",
+      "era": "惠公",
+      "precision": "年"
+    },
+    {
+      "id": "C144",
+      "polity": "陈国",
+      "era": "怀公",
+      "precision": "年"
+    },
+    {
+      "id": "C145",
+      "polity": "陈国",
+      "era": "愍公",
+      "precision": "年"
+    },
+    {
+      "id": "C147",
+      "polity": "鲁国",
+      "era": "伯禽",
+      "precision": "年"
+    },
+    {
+      "id": "C148",
+      "polity": "鲁国",
+      "era": "考公",
+      "precision": "年"
+    },
+    {
+      "id": "C149",
+      "polity": "鲁国",
+      "era": "炀公",
+      "precision": "年"
+    },
+    {
+      "id": "C150",
+      "polity": "鲁国",
+      "era": "幽公",
+      "precision": "年"
+    },
+    {
+      "id": "C151",
+      "polity": "鲁国",
+      "era": "魏公",
+      "precision": "年"
+    },
+    {
+      "id": "C152",
+      "polity": "鲁国",
+      "era": "厉公",
+      "precision": "年"
+    },
+    {
+      "id": "C153",
+      "polity": "鲁国",
+      "era": "献公",
+      "precision": "年"
+    },
+    {
+      "id": "C154",
+      "polity": "鲁国",
+      "era": "真公",
+      "precision": "年"
+    },
+    {
+      "id": "C155",
+      "polity": "鲁国",
+      "era": "武公",
+      "precision": "年"
+    },
+    {
+      "id": "C156",
+      "polity": "鲁国",
+      "era": "懿公",
+      "precision": "年"
+    },
+    {
+      "id": "C157",
+      "polity": "鲁国",
+      "era": "伯御",
+      "precision": "年"
+    },
+    {
+      "id": "C158",
+      "polity": "鲁国",
+      "era": "孝公",
+      "precision": "年"
+    },
+    {
+      "id": "C159",
+      "polity": "鲁国",
+      "era": "惠公",
+      "precision": "年"
+    },
+    {
+      "id": "C173",
+      "polity": "鲁国",
+      "era": "哀公",
+      "precision": "年"
+    },
+    {
+      "id": "C174",
+      "polity": "曹国",
+      "era": "叔振铎",
+      "precision": "年"
+    },
+    {
+      "id": "C175",
+      "polity": "曹国",
+      "era": "太伯",
+      "precision": "年"
+    },
+    {
+      "id": "C176",
+      "polity": "曹国",
+      "era": "仲君",
+      "precision": "年"
+    },
+    {
+      "id": "C177",
+      "polity": "曹国",
+      "era": "宫伯",
+      "precision": "年"
+    },
+    {
+      "id": "C178",
+      "polity": "曹国",
+      "era": "孝伯",
+      "precision": "年"
+    },
+    {
+      "id": "C179",
+      "polity": "曹国",
+      "era": "夷伯",
+      "precision": "年"
+    },
+    {
+      "id": "C180",
+      "polity": "曹国",
+      "era": "幽伯",
+      "precision": "年"
+    },
+    {
+      "id": "C181",
+      "polity": "曹国",
+      "era": "戴伯",
+      "precision": "年"
+    },
+    {
+      "id": "C182",
+      "polity": "曹国",
+      "era": "惠公",
+      "precision": "年"
+    },
+    {
+      "id": "C183",
+      "polity": "曹国",
+      "era": "穆公",
+      "precision": "年"
+    },
+    {
+      "id": "C184",
+      "polity": "曹国",
+      "era": "桓公",
+      "precision": "年"
+    },
+    {
+      "id": "C185",
+      "polity": "曹国",
+      "era": "庄公",
+      "precision": "年"
+    },
+    {
+      "id": "C186",
+      "polity": "曹国",
+      "era": "厘公",
+      "precision": "年"
+    },
+    {
+      "id": "C187",
+      "polity": "曹国",
+      "era": "昭公",
+      "precision": "年"
+    },
+    {
+      "id": "C188",
+      "polity": "曹国",
+      "era": "共公",
+      "precision": "年"
+    },
+    {
+      "id": "C189",
+      "polity": "曹国",
+      "era": "文公",
+      "precision": "年"
+    },
+    {
+      "id": "C190",
+      "polity": "曹国",
+      "era": "宣公",
+      "precision": "年"
+    },
+    {
+      "id": "C191",
+      "polity": "曹国",
+      "era": "成公",
+      "precision": "年"
+    },
+    {
+      "id": "C192",
+      "polity": "曹国",
+      "era": "武公",
+      "precision": "年"
+    },
+    {
+      "id": "C193",
+      "polity": "曹国",
+      "era": "平公",
+      "precision": "年"
+    },
+    {
+      "id": "C194",
+      "polity": "曹国",
+      "era": "悼公",
+      "precision": "年"
+    },
+    {
+      "id": "C195",
+      "polity": "曹国",
+      "era": "襄公",
+      "precision": "年"
+    },
+    {
+      "id": "C196",
+      "polity": "曹国",
+      "era": "隐公",
+      "precision": "年"
+    },
+    {
+      "id": "C197",
+      "polity": "曹国",
+      "era": "靖公",
+      "precision": "年"
+    },
+    {
+      "id": "C198",
+      "polity": "曹国",
+      "era": "伯阳",
+      "precision": "年"
+    },
+    {
+      "id": "C199",
+      "polity": "吴国",
+      "era": "寿梦",
+      "precision": "年"
+    },
+    {
+      "id": "C200",
+      "polity": "吴国",
+      "era": "诸樊",
+      "precision": "年"
+    },
+    {
+      "id": "C201",
+      "polity": "吴国",
+      "era": "余祭",
+      "precision": "年"
+    },
+    {
+      "id": "C202",
+      "polity": "吴国",
+      "era": "余眛",
+      "precision": "年"
+    },
+    {
+      "id": "C203",
+      "polity": "吴国",
+      "era": "僚",
+      "precision": "年"
+    },
+    {
+      "id": "C204",
+      "polity": "吴国",
+      "era": "阖闾",
+      "precision": "年"
+    },
+    {
+      "id": "C205",
+      "polity": "吴国",
+      "era": "夫差",
+      "precision": "年"
+    },
+    {
+      "id": "C206",
+      "polity": "楚国",
+      "era": "熊勇",
+      "precision": "年"
+    },
+    {
+      "id": "C207",
+      "polity": "楚国",
+      "era": "熊严",
+      "precision": "年"
+    },
+    {
+      "id": "C208",
+      "polity": "楚国",
+      "era": "熊霜",
+      "precision": "年"
+    },
+    {
+      "id": "C209",
+      "polity": "楚国",
+      "era": "熊徇",
+      "precision": "年"
+    },
+    {
+      "id": "C210",
+      "polity": "楚国",
+      "era": "熊咢",
+      "precision": "年"
+    },
+    {
+      "id": "C211",
+      "polity": "楚国",
+      "era": "若敖",
+      "precision": "年"
+    },
+    {
+      "id": "C212",
+      "polity": "楚国",
+      "era": "宵敖",
+      "precision": "年"
+    },
+    {
+      "id": "C213",
+      "polity": "楚国",
+      "era": "蚡冒",
+      "precision": "年"
+    },
+    {
+      "id": "C214",
+      "polity": "楚国",
+      "era": "武王",
+      "precision": "年"
+    },
+    {
+      "id": "C215",
+      "polity": "楚国",
+      "era": "文王",
+      "precision": "年"
+    },
+    {
+      "id": "C216",
+      "polity": "楚国",
+      "era": "堵敖",
+      "precision": "年"
+    },
+    {
+      "id": "C217",
+      "polity": "楚国",
+      "era": "成王",
+      "precision": "年"
+    },
+    {
+      "id": "C218",
+      "polity": "楚国",
+      "era": "穆王",
+      "precision": "年"
+    },
+    {
+      "id": "C219",
+      "polity": "楚国",
+      "era": "庄王",
+      "precision": "年"
+    },
+    {
+      "id": "C220",
+      "polity": "楚国",
+      "era": "共王",
+      "precision": "年"
+    },
+    {
+      "id": "C221",
+      "polity": "楚国",
+      "era": "康王",
+      "precision": "年"
+    },
+    {
+      "id": "C222",
+      "polity": "楚国",
+      "era": "郏敖",
+      "precision": "年"
+    },
+    {
+      "id": "C223",
+      "polity": "楚国",
+      "era": "灵王",
+      "precision": "年"
+    },
+    {
+      "id": "C224",
+      "polity": "楚国",
+      "era": "訾敖",
+      "precision": "年"
+    },
+    {
+      "id": "C225",
+      "polity": "楚国",
+      "era": "平王",
+      "precision": "年"
+    },
+    {
+      "id": "C226",
+      "polity": "楚国",
+      "era": "昭王",
+      "precision": "年"
+    },
+    {
+      "id": "C227",
+      "polity": "楚国",
+      "era": "惠王",
+      "precision": "年"
+    },
+    {
+      "id": "C228",
+      "polity": "楚国",
+      "era": "简王",
+      "precision": "年"
+    },
+    {
+      "id": "C229",
+      "polity": "楚国",
+      "era": "声王",
+      "precision": "年"
+    },
+    {
+      "id": "C230",
+      "polity": "楚国",
+      "era": "悼王",
+      "precision": "年"
+    },
+    {
+      "id": "C231",
+      "polity": "楚国",
+      "era": "肃王",
+      "precision": "年"
+    },
+    {
+      "id": "C232",
+      "polity": "楚国",
+      "era": "宣王",
+      "precision": "年"
+    },
+    {
+      "id": "C233",
+      "polity": "楚国",
+      "era": "威王",
+      "precision": "年"
+    },
+    {
+      "id": "C234",
+      "polity": "楚国",
+      "era": "怀王",
+      "precision": "年"
+    },
+    {
+      "id": "C235",
+      "polity": "楚国",
+      "era": "顷王",
+      "precision": "年"
+    },
+    {
+      "id": "C236",
+      "polity": "楚国",
+      "era": "考烈王",
+      "precision": "年"
+    },
+    {
+      "id": "C237",
+      "polity": "楚国",
+      "era": "幽王",
+      "precision": "年"
+    },
+    {
+      "id": "C238",
+      "polity": "楚国",
+      "era": "哀王",
+      "precision": "年"
+    },
+    {
+      "id": "C239",
+      "polity": "楚国",
+      "era": "负刍",
+      "precision": "年"
+    },
+    {
+      "id": "C240",
+      "polity": "楚国",
+      "era": "昌平君",
+      "precision": "年"
+    },
+    {
+      "id": "C241",
+      "polity": "燕国",
+      "era": "惠侯",
+      "precision": "年"
+    },
+    {
+      "id": "C242",
+      "polity": "燕国",
+      "era": "厘侯",
+      "precision": "年"
+    },
+    {
+      "id": "C243",
+      "polity": "燕国",
+      "era": "顷侯",
+      "precision": "年"
+    },
+    {
+      "id": "C244",
+      "polity": "燕国",
+      "era": "哀侯",
+      "precision": "年"
+    },
+    {
+      "id": "C245",
+      "polity": "燕国",
+      "era": "郑侯",
+      "precision": "年"
+    },
+    {
+      "id": "C246",
+      "polity": "燕国",
+      "era": "穆侯",
+      "precision": "年"
+    },
+    {
+      "id": "C247",
+      "polity": "燕国",
+      "era": "宣侯",
+      "precision": "年"
+    },
+    {
+      "id": "C248",
+      "polity": "燕国",
+      "era": "桓侯",
+      "precision": "年"
+    },
+    {
+      "id": "C249",
+      "polity": "燕国",
+      "era": "庄公",
+      "precision": "年"
+    },
+    {
+      "id": "C250",
+      "polity": "燕国",
+      "era": "襄公",
+      "precision": "年"
+    },
+    {
+      "id": "C251",
+      "polity": "燕国",
+      "era": "前桓公",
+      "precision": "年"
+    },
+    {
+      "id": "C252",
+      "polity": "燕国",
+      "era": "宣公",
+      "precision": "年"
+    },
+    {
+      "id": "C253",
+      "polity": "燕国",
+      "era": "昭公",
+      "precision": "年"
+    },
+    {
+      "id": "C254",
+      "polity": "燕国",
+      "era": "武公",
+      "precision": "年"
+    },
+    {
+      "id": "C255",
+      "polity": "燕国",
+      "era": "前文公",
+      "precision": "年"
+    },
+    {
+      "id": "C256",
+      "polity": "燕国",
+      "era": "懿公",
+      "precision": "年"
+    },
+    {
+      "id": "C257",
+      "polity": "燕国",
+      "era": "惠公",
+      "precision": "年"
+    },
+    {
+      "id": "C258",
+      "polity": "燕国",
+      "era": "悼公",
+      "precision": "年"
+    },
+    {
+      "id": "C259",
+      "polity": "燕国",
+      "era": "共公",
+      "precision": "年"
+    },
+    {
+      "id": "C260",
+      "polity": "燕国",
+      "era": "平公",
+      "precision": "年"
+    },
+    {
+      "id": "C261",
+      "polity": "燕国",
+      "era": "前简公",
+      "precision": "年"
+    },
+    {
+      "id": "C262",
+      "polity": "燕国",
+      "era": "孝公",
+      "precision": "年"
+    },
+    {
+      "id": "C263",
+      "polity": "燕国",
+      "era": "成公",
+      "precision": "年"
+    },
+    {
+      "id": "C264",
+      "polity": "燕国",
+      "era": "闵公",
+      "precision": "年"
+    },
+    {
+      "id": "C265",
+      "polity": "燕国",
+      "era": "后简公",
+      "precision": "年"
+    },
+    {
+      "id": "C266",
+      "polity": "燕国",
+      "era": "后桓公",
+      "precision": "年"
+    },
+    {
+      "id": "C267",
+      "polity": "燕国",
+      "era": "后文公",
+      "precision": "年"
+    },
+    {
+      "id": "C268",
+      "polity": "燕国",
+      "era": "易王",
+      "precision": "年"
+    },
+    {
+      "id": "C269",
+      "polity": "燕国",
+      "era": "燕王哙",
+      "precision": "年"
+    },
+    {
+      "id": "C270",
+      "polity": "燕国",
+      "era": "昭襄王",
+      "precision": "年"
+    },
+    {
+      "id": "C271",
+      "polity": "燕国",
+      "era": "惠王",
+      "precision": "年"
+    },
+    {
+      "id": "C272",
+      "polity": "燕国",
+      "era": "武成王",
+      "precision": "年"
+    },
+    {
+      "id": "C273",
+      "polity": "燕国",
+      "era": "孝王",
+      "precision": "年"
+    },
+    {
+      "id": "C274",
+      "polity": "燕国",
+      "era": "燕王喜",
+      "precision": "年"
+    },
+    {
+      "id": "C275",
+      "polity": "卫国",
+      "era": "顷侯",
+      "precision": "年"
+    },
+    {
+      "id": "C276",
+      "polity": "卫国",
+      "era": "僖侯",
+      "precision": "年"
+    },
+    {
+      "id": "C277",
+      "polity": "卫国",
+      "era": "共伯",
+      "precision": "年"
+    },
+    {
+      "id": "C278",
+      "polity": "卫国",
+      "era": "武公",
+      "precision": "年"
+    },
+    {
+      "id": "C279",
+      "polity": "卫国",
+      "era": "庄公姬扬",
+      "precision": "年"
+    },
+    {
+      "id": "C280",
+      "polity": "卫国",
+      "era": "桓公",
+      "precision": "年"
+    },
+    {
+      "id": "C281",
+      "polity": "卫国",
+      "era": "州吁",
+      "precision": "年"
+    },
+    {
+      "id": "C282",
+      "polity": "卫国",
+      "era": "宣公",
+      "precision": "年"
+    },
+    {
+      "id": "C283",
+      "polity": "卫国",
+      "era": "惠公",
+      "precision": "年"
+    },
+    {
+      "id": "C284",
+      "polity": "卫国",
+      "era": "黔牟",
+      "precision": "年"
+    },
+    {
+      "id": "C285",
+      "polity": "卫国",
+      "era": "惠公",
+      "precision": "年"
+    },
+    {
+      "id": "C286",
+      "polity": "卫国",
+      "era": "懿公",
+      "precision": "年"
+    },
+    {
+      "id": "C287",
+      "polity": "卫国",
+      "era": "戴公",
+      "precision": "年"
+    },
+    {
+      "id": "C288",
+      "polity": "卫国",
+      "era": "文公",
+      "precision": "年"
+    },
+    {
+      "id": "C289",
+      "polity": "卫国",
+      "era": "成公",
+      "precision": "年"
+    },
+    {
+      "id": "C290",
+      "polity": "卫国",
+      "era": "穆公",
+      "precision": "年"
+    },
+    {
+      "id": "C291",
+      "polity": "卫国",
+      "era": "定公",
+      "precision": "年"
+    },
+    {
+      "id": "C292",
+      "polity": "卫国",
+      "era": "献公",
+      "precision": "年"
+    },
+    {
+      "id": "C293",
+      "polity": "卫国",
+      "era": "殇公",
+      "precision": "年"
+    },
+    {
+      "id": "C294",
+      "polity": "卫国",
+      "era": "献公",
+      "precision": "年"
+    },
+    {
+      "id": "C295",
+      "polity": "卫国",
+      "era": "襄公",
+      "precision": "年"
+    },
+    {
+      "id": "C296",
+      "polity": "卫国",
+      "era": "灵公",
+      "precision": "年"
+    },
+    {
+      "id": "C297",
+      "polity": "卫国",
+      "era": "出公",
+      "precision": "年"
+    },
+    {
+      "id": "C298",
+      "polity": "卫国",
+      "era": "庄公姬蒯聩",
+      "precision": "年"
+    },
+    {
+      "id": "C299",
+      "polity": "卫国",
+      "era": "斑师",
+      "precision": "年"
+    },
+    {
+      "id": "C300",
+      "polity": "卫国",
+      "era": "君起",
+      "precision": "年"
+    },
+    {
+      "id": "C301",
+      "polity": "卫国",
+      "era": "出公",
+      "precision": "年"
+    },
+    {
+      "id": "C302",
+      "polity": "卫国",
+      "era": "悼公",
+      "precision": "年"
+    },
+    {
+      "id": "C303",
+      "polity": "卫国",
+      "era": "敬公",
+      "precision": "年"
+    },
+    {
+      "id": "C304",
+      "polity": "卫国",
+      "era": "昭公",
+      "precision": "年"
+    },
+    {
+      "id": "C305",
+      "polity": "卫国",
+      "era": "怀公",
+      "precision": "年"
+    },
+    {
+      "id": "C306",
+      "polity": "卫国",
+      "era": "慎公",
+      "precision": "年"
+    },
+    {
+      "id": "C307",
+      "polity": "卫国",
+      "era": "声公",
+      "precision": "年"
+    },
+    {
+      "id": "C308",
+      "polity": "卫国",
+      "era": "成侯",
+      "precision": "年"
+    },
+    {
+      "id": "C309",
+      "polity": "卫国",
+      "era": "平侯",
+      "precision": "年"
+    },
+    {
+      "id": "C310",
+      "polity": "卫国",
+      "era": "嗣君",
+      "precision": "年"
+    },
+    {
+      "id": "C311",
+      "polity": "卫国",
+      "era": "怀君",
+      "precision": "年"
+    },
+    {
+      "id": "C312",
+      "polity": "卫国",
+      "era": "元君",
+      "precision": "年"
+    },
+    {
+      "id": "C313",
+      "polity": "卫国",
+      "era": "君角",
+      "precision": "年"
+    },
+    {
+      "id": "C314",
+      "polity": "赵氏",
+      "era": "成子",
+      "precision": "年"
+    },
+    {
+      "id": "C315",
+      "polity": "赵氏",
+      "era": "宣子",
+      "precision": "年"
+    },
+    {
+      "id": "C316",
+      "polity": "赵氏",
+      "era": "庄子",
+      "precision": "年"
+    },
+    {
+      "id": "C317",
+      "polity": "赵氏",
+      "era": "文子",
+      "precision": "年"
+    },
+    {
+      "id": "C318",
+      "polity": "赵氏",
+      "era": "景叔",
+      "precision": "年"
+    },
+    {
+      "id": "C319",
+      "polity": "赵氏",
+      "era": "简子",
+      "precision": "年"
+    },
+    {
+      "id": "C320",
+      "polity": "赵氏",
+      "era": "襄子",
+      "precision": "年"
+    },
+    {
+      "id": "C321",
+      "polity": "赵氏",
+      "era": "桓子",
+      "precision": "年"
+    },
+    {
+      "id": "C322",
+      "polity": "赵氏",
+      "era": "献子",
+      "precision": "年"
+    },
+    {
+      "id": "C323",
+      "polity": "赵国",
+      "era": "烈侯",
+      "precision": "年"
+    },
+    {
+      "id": "C324",
+      "polity": "赵国",
+      "era": "武侯",
+      "precision": "年"
+    },
+    {
+      "id": "C325",
+      "polity": "赵国",
+      "era": "敬侯",
+      "precision": "年"
+    },
+    {
+      "id": "C326",
+      "polity": "赵国",
+      "era": "成侯",
+      "precision": "年"
+    },
+    {
+      "id": "C327",
+      "polity": "赵国",
+      "era": "肃侯",
+      "precision": "年"
+    },
+    {
+      "id": "C328",
+      "polity": "赵国",
+      "era": "武灵王",
+      "precision": "年"
+    },
+    {
+      "id": "C329",
+      "polity": "赵国",
+      "era": "惠文王",
+      "precision": "年"
+    },
+    {
+      "id": "C330",
+      "polity": "赵国",
+      "era": "孝成王",
+      "precision": "年"
+    },
+    {
+      "id": "C331",
+      "polity": "赵国",
+      "era": "悼襄王",
+      "precision": "年"
+    },
+    {
+      "id": "C332",
+      "polity": "赵国",
+      "era": "幽缪王",
+      "precision": "年"
+    },
+    {
+      "id": "C333",
+      "polity": "赵国",
+      "era": "代王嘉",
+      "precision": "年"
+    },
+    {
+      "id": "C334",
+      "polity": "郑国",
+      "era": "桓公",
+      "precision": "年"
+    },
+    {
+      "id": "C335",
+      "polity": "郑国",
+      "era": "武公",
+      "precision": "年"
+    },
+    {
+      "id": "C336",
+      "polity": "郑国",
+      "era": "庄公",
+      "precision": "年"
+    },
+    {
+      "id": "C337",
+      "polity": "郑国",
+      "era": "昭公",
+      "precision": "年"
+    },
+    {
+      "id": "C338",
+      "polity": "郑国",
+      "era": "厉公",
+      "precision": "年"
+    },
+    {
+      "id": "C339",
+      "polity": "郑国",
+      "era": "昭公",
+      "precision": "年"
+    },
+    {
+      "id": "C340",
+      "polity": "郑国",
+      "era": "子亹",
+      "precision": "年"
+    },
+    {
+      "id": "C341",
+      "polity": "郑国",
+      "era": "子婴",
+      "precision": "年"
+    },
+    {
+      "id": "C342",
+      "polity": "郑国",
+      "era": "厉公",
+      "precision": "年"
+    },
+    {
+      "id": "C343",
+      "polity": "郑国",
+      "era": "文公",
+      "precision": "年"
+    },
+    {
+      "id": "C344",
+      "polity": "郑国",
+      "era": "穆公",
+      "precision": "年"
+    },
+    {
+      "id": "C345",
+      "polity": "郑国",
+      "era": "灵公",
+      "precision": "年"
+    },
+    {
+      "id": "C346",
+      "polity": "郑国",
+      "era": "襄公",
+      "precision": "年"
+    },
+    {
+      "id": "C347",
+      "polity": "郑国",
+      "era": "悼公",
+      "precision": "年"
+    },
+    {
+      "id": "C348",
+      "polity": "郑国",
+      "era": "成公",
+      "precision": "年"
+    },
+    {
+      "id": "C349",
+      "polity": "郑国",
+      "era": "厘公",
+      "precision": "年"
+    },
+    {
+      "id": "C350",
+      "polity": "郑国",
+      "era": "简公",
+      "precision": "年"
+    },
+    {
+      "id": "C351",
+      "polity": "郑国",
+      "era": "定公",
+      "precision": "年"
+    },
+    {
+      "id": "C352",
+      "polity": "郑国",
+      "era": "献公",
+      "precision": "年"
+    },
+    {
+      "id": "C353",
+      "polity": "郑国",
+      "era": "声公",
+      "precision": "年"
+    },
+    {
+      "id": "C354",
+      "polity": "郑国",
+      "era": "哀公",
+      "precision": "年"
+    },
+    {
+      "id": "C355",
+      "polity": "郑国",
+      "era": "共公",
+      "precision": "年"
+    },
+    {
+      "id": "C356",
+      "polity": "郑国",
+      "era": "幽公",
+      "precision": "年"
+    },
+    {
+      "id": "C357",
+      "polity": "郑国",
+      "era": "𦈡公",
+      "precision": "年"
+    },
+    {
+      "id": "C358",
+      "polity": "郑国",
+      "era": "康公",
+      "precision": "年"
+    },
+    {
+      "id": "C359",
+      "polity": "韩氏",
+      "era": "武子",
+      "precision": "年"
+    },
+    {
+      "id": "C360",
+      "polity": "韩国",
+      "era": "景侯",
+      "precision": "年"
+    },
+    {
+      "id": "C361",
+      "polity": "韩国",
+      "era": "烈侯",
+      "precision": "年"
+    },
+    {
+      "id": "C362",
+      "polity": "韩国",
+      "era": "文侯",
+      "precision": "年"
+    },
+    {
+      "id": "C363",
+      "polity": "韩国",
+      "era": "哀侯",
+      "precision": "年"
+    },
+    {
+      "id": "C364",
+      "polity": "韩国",
+      "era": "懿侯",
+      "precision": "年"
+    },
+    {
+      "id": "C365",
+      "polity": "韩国",
+      "era": "昭侯",
+      "precision": "年"
+    },
+    {
+      "id": "C366",
+      "polity": "韩国",
+      "era": "宣惠王",
+      "precision": "年"
+    },
+    {
+      "id": "C367",
+      "polity": "韩国",
+      "era": "襄王",
+      "precision": "年"
+    },
+    {
+      "id": "C368",
+      "polity": "韩国",
+      "era": "厘王",
+      "precision": "年"
+    },
+    {
+      "id": "C369",
+      "polity": "韩国",
+      "era": "桓惠王",
+      "precision": "年"
+    },
+    {
+      "id": "C370",
+      "polity": "韩国",
+      "era": "韩王安",
+      "precision": "年"
+    },
+    {
+      "id": "C371",
+      "polity": "魏国",
+      "era": "文侯",
+      "precision": "年"
+    },
+    {
+      "id": "C372",
+      "polity": "魏国",
+      "era": "武侯",
+      "precision": "年"
+    },
+    {
+      "id": "C373",
+      "polity": "魏国",
+      "era": "惠王",
+      "precision": "年"
+    },
+    {
+      "id": "C374",
+      "polity": "魏国",
+      "era": "后",
+      "precision": "年"
+    },
+    {
+      "id": "C375",
+      "polity": "魏国",
+      "era": "襄王",
+      "precision": "年"
+    },
+    {
+      "id": "C376",
+      "polity": "魏国",
+      "era": "昭王",
+      "precision": "年"
+    },
+    {
+      "id": "C377",
+      "polity": "魏国",
+      "era": "安厘王",
+      "precision": "年"
+    },
+    {
+      "id": "C378",
+      "polity": "魏国",
+      "era": "景湣王",
+      "precision": "年"
+    },
+    {
+      "id": "C379",
+      "polity": "魏国",
+      "era": "魏假",
+      "precision": "年"
+    },
+    {
+      "id": "C381",
+      "polity": "秦国",
+      "era": "秦侯",
+      "precision": "年"
+    },
+    {
+      "id": "C382",
+      "polity": "秦国",
+      "era": "公伯",
+      "precision": "年"
+    },
+    {
+      "id": "C383",
+      "polity": "秦国",
+      "era": "秦仲",
+      "precision": "年"
+    },
+    {
+      "id": "C384",
+      "polity": "秦国",
+      "era": "庄公",
+      "precision": "年"
+    },
+    {
+      "id": "C385",
+      "polity": "秦国",
+      "era": "襄公",
+      "precision": "年"
+    },
+    {
+      "id": "C386",
+      "polity": "秦国",
+      "era": "文公",
+      "precision": "年"
+    },
+    {
+      "id": "C387",
+      "polity": "秦国",
+      "era": "宁公",
+      "precision": "年"
+    },
+    {
+      "id": "C388",
+      "polity": "秦国",
+      "era": "出公",
+      "precision": "年"
+    },
+    {
+      "id": "C389",
+      "polity": "秦国",
+      "era": "武公",
+      "precision": "年"
+    },
+    {
+      "id": "C390",
+      "polity": "秦国",
+      "era": "德公",
+      "precision": "年"
+    },
+    {
+      "id": "C391",
+      "polity": "秦国",
+      "era": "宣公",
+      "precision": "年"
+    },
+    {
+      "id": "C392",
+      "polity": "秦国",
+      "era": "成公",
+      "precision": "年"
+    },
+    {
+      "id": "C393",
+      "polity": "秦国",
+      "era": "穆公",
+      "precision": "年"
+    },
+    {
+      "id": "C394",
+      "polity": "秦国",
+      "era": "康公",
+      "precision": "年"
+    },
+    {
+      "id": "C395",
+      "polity": "秦国",
+      "era": "共公",
+      "precision": "年"
+    },
+    {
+      "id": "C396",
+      "polity": "秦国",
+      "era": "桓公",
+      "precision": "年"
+    },
+    {
+      "id": "C397",
+      "polity": "秦国",
+      "era": "景公",
+      "precision": "年"
+    },
+    {
+      "id": "C398",
+      "polity": "秦国",
+      "era": "哀公",
+      "precision": "年"
+    },
+    {
+      "id": "C399",
+      "polity": "秦国",
+      "era": "惠公",
+      "precision": "年"
+    },
+    {
+      "id": "C400",
+      "polity": "秦国",
+      "era": "悼公",
+      "precision": "年"
+    },
+    {
+      "id": "C401",
+      "polity": "秦国",
+      "era": "厉共公",
+      "precision": "年"
+    },
+    {
+      "id": "C402",
+      "polity": "秦国",
+      "era": "躁公",
+      "precision": "年"
+    },
+    {
+      "id": "C403",
+      "polity": "秦国",
+      "era": "怀公",
+      "precision": "年"
+    },
+    {
+      "id": "C404",
+      "polity": "秦国",
+      "era": "灵公",
+      "precision": "年"
+    },
+    {
+      "id": "C405",
+      "polity": "秦国",
+      "era": "简公",
+      "precision": "年"
+    },
+    {
+      "id": "C406",
+      "polity": "秦国",
+      "era": "惠公(战国)",
+      "precision": "年"
+    },
+    {
+      "id": "C407",
+      "polity": "秦国",
+      "era": "出子",
+      "precision": "年"
+    },
+    {
+      "id": "C408",
+      "polity": "秦国",
+      "era": "献公",
+      "precision": "年"
+    },
+    {
+      "id": "C409",
+      "polity": "秦国",
+      "era": "孝公",
+      "precision": "年"
+    },
+    {
+      "id": "C410",
+      "polity": "秦国",
+      "era": "惠文君",
+      "precision": "年"
+    },
+    {
+      "id": "C411",
+      "polity": "秦国",
+      "era": "惠文王",
+      "precision": "年"
+    },
+    {
+      "id": "C412",
+      "polity": "秦国",
+      "era": "武王",
+      "precision": "年"
+    },
+    {
+      "id": "C414",
+      "polity": "秦国",
+      "era": "武王",
+      "precision": "年"
+    },
+    {
+      "id": "C415",
+      "polity": "秦国",
+      "era": "昭襄王",
+      "precision": "年"
+    }
+  ],
+  "calendarAdjustments": [
+    {
+      "id": "C480",
+      "polity": "成家",
+      "era": "龙兴",
+      "note": "来源月表跨越其岁界，按来源岁界截为历法片段；不将重叠片段作唯一确定历日。"
+    },
+    {
+      "id": "C669",
+      "polity": "后燕",
+      "era": "光始",
+      "note": "来源含非常规月名（13月等），保留原标记，未擅改为普通闰月。"
+    },
+    {
+      "id": "C876",
+      "polity": "北魏",
+      "era": "天统",
+      "note": "来源月表跨越其岁界，按来源岁界截为历法片段；不将重叠片段作唯一确定历日。"
+    },
+    {
+      "id": "C877",
+      "polity": "北魏",
+      "era": "神兽",
+      "note": "来源月表跨越其岁界，按来源岁界截为历法片段；不将重叠片段作唯一确定历日。"
+    },
+    {
+      "id": "C1038",
+      "polity": "燕",
+      "era": "显圣",
+      "note": "来源含非常规月名（13月等），保留原标记，未擅改为普通闰月。"
+    },
+    {
+      "id": "C1066",
+      "polity": "渤海",
+      "era": "大兴",
+      "note": "来源月表跨越其岁界，按来源岁界截为历法片段；不将重叠片段作唯一确定历日。来源含非常规月名（13月等），保留原标记，未擅改为普通闰月。"
+    },
+    {
+      "id": "C1132",
+      "polity": "闽",
+      "era": "永隆",
+      "note": "来源含非常规月名（13月等），保留原标记，未擅改为普通闰月。"
+    },
+    {
+      "id": "C1290",
+      "polity": "东丹",
+      "era": "端顺皇后",
+      "note": "来源含非常规月名（13月等），保留原标记，未擅改为普通闰月。"
+    },
+    {
+      "id": "C1333",
+      "polity": "西夏",
+      "era": "乾佑",
+      "note": "来源月表跨越其岁界，按来源岁界截为历法片段；不将重叠片段作唯一确定历日。"
+    },
+    {
+      "id": "C1428",
+      "polity": "大顺",
+      "era": "永昌",
+      "note": "来源月表跨越其岁界，按来源岁界截为历法片段；不将重叠片段作唯一确定历日。来源含非常规月名（13月等），保留原标记，未擅改为普通闰月。"
+    },
+    {
+      "id": "C1429",
+      "polity": "大西",
+      "era": "大顺",
+      "note": "来源月表跨越其岁界，按来源岁界截为历法片段；不将重叠片段作唯一确定历日。"
+    }
+  ],
+  "skipped": [
+    {
+      "name": [
+        "魯春秋",
+        null,
+        "魯春秋",
+        "中國"
+      ],
+      "reason": "technical reference calendar"
+    },
+    {
+      "name": [
+        "秦漢歷",
+        null,
+        "秦漢歷",
+        "中國"
+      ],
+      "reason": "technical reference calendar"
+    },
+    {
+      "name": [
+        "永曆",
+        "",
+        "明鄭",
+        "中國"
+      ],
+      "reason": "technical reference calendar"
+    },
+    {
+      "name": [
+        "中曆",
+        null,
+        "中曆",
+        "中國",
+        "農曆",
+        "陰曆",
+        "舊曆",
+        "夏曆"
+      ],
+      "reason": "technical reference calendar"
+    },
+    {
+      "name": [
+        "中華民國",
+        null,
+        "中華民國",
+        "中國",
+        "民國"
+      ],
+      "reason": "technical reference calendar"
+    },
+    {
+      "name": [
+        "黎元洪",
+        "軍政府鄂軍都督府",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "孫文",
+        "臨時政府",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "袁世凱",
+        "臨時政府",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "北洋政府",
+        "北洋政府",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "國民政府",
+        "國民政府",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "蔣中正",
+        "蔣中正",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "李宗仁",
+        "李宗仁",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "蔣中正",
+        "蔣中正",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "嚴家淦",
+        "嚴家淦",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "蔣經國",
+        "蔣經國",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "李登輝",
+        "李登輝",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "陳水扁",
+        "陳水扁",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "馬英九",
+        "馬英九",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "蔡英文",
+        "蔡英文",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "賴清德",
+        "賴清德",
+        "中華民國",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "毛泽东",
+        "毛泽东",
+        "中华人民共和国",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "邓小平",
+        "邓小平",
+        "中华人民共和国",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "江泽民",
+        "江泽民",
+        "中华人民共和国",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "胡锦涛",
+        "胡锦涛",
+        "中华人民共和国",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    },
+    {
+      "name": [
+        "习近平",
+        "习近平",
+        "中华人民共和国",
+        "中國"
+      ],
+      "reason": "modern personal tenure; modern numbering supplied separately"
+    }
+  ],
+  "issues": [
+    "initialize_era_date: 無法辨識曆數資料！",
+    "initialize_era_date: ,後一紀元 [北魏元氏武泰,] 本月 ,29,天，不等於原先參照的紀元(為 ,30,天)！",
+    "initialize_era_date: ,後一紀元 [北魏元釗武泰,] 本月 ,29,天，不等於原先參照的紀元(為 ,30,天)！",
+    "initialize_era_date: ,後一紀元 [北魏孝莊帝建義,] 本月 ,29,天，不等於原先參照的紀元(為 ,30,天)！"
+  ]
+}
